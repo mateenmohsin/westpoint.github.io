@@ -48,15 +48,34 @@
       
       flex: 50%;
       padding-left:30vh;
+      padding-top: 28px;
 
     }
     .head-could{
       max-width: inherit;
     }
+    .last_div
+    {
+      width:350px;
+      height:auto;
+    }
     @media screen and (max-width: 991px) {
       .ic_cloudservice
       {
         margin:-194px;
+        margin-left: 1px;
+        padding-top:5px;
+      }
+      .last_div
+      {
+        width: 250px;
+        height: auto;
+        margin-top: 150px;
+        margin-left: 10px;
+      }
+      .about_h2 
+      {
+        margin-left: -31px;
       }
     }
 
@@ -67,6 +86,17 @@
         margin:30px;
         width: 120px;
         height:120px;
+      }
+      .last_div
+      {
+        width: 250px;
+        height: auto;
+        margin-top: 66px;
+       margin-left: 25px;
+      }
+      .col-img
+      {
+        display: none;
       }
     }
   </style>
@@ -276,7 +306,7 @@
       <div class="row1">
         <div class="col1 hd">
           <div class="slide-in">
-            <p  class="h2style">About The Project</p>
+            <p  class="h2style about_h2">About The Project</p>
           </div>
         </div>
         <div class="col1">
@@ -327,7 +357,7 @@
           </div>
           
         </div>
-        <div class="col4-img"><img src="assets/imgs/case studies + aws/prod-img.png" width="350px" height="auto"></div>
+        <div class="col4-img"><img src="assets/imgs/case studies + aws/prod-img.png" class="last_div"></div>
       </div>
     </div>
     <!-- <div class="lines-bg">
