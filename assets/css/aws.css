@@ -1276,10 +1276,10 @@ opacity: 1;
   background-repeat: no-repeat;*/
 
 
-  width: 327px;
-  height: 331px;
+  /*width: 327px;
+  height: 331px;*/
     /*max-width: 55%*/;
-  margin-left: 43px;
+  /*margin-left: 43px;*/
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
@@ -3055,7 +3055,7 @@ opacity: 1;
 } 
 .h4style
 {
-	margin-left: -40px;
+	/*margin-left: -40px;*/
 }
   h1 {
     margin-bottom: 24px;
@@ -4295,6 +4295,9 @@ opacity: 1;
 }
 
 @media screen and (max-width: 767px) {
+	.h4style {
+     margin-left: -40px; 
+}
   .section.main-1s {
     overflow: visible;
     padding-top: 118px;
@@ -4539,6 +4542,7 @@ opacity: 1;
   .col4 {
     display: block;
     margin-bottom: 60px;
+    margin-left: 32px;
   }
 
   .col4-img {
