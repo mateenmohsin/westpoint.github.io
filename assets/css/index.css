@@ -930,7 +930,7 @@ opacity: 1;
   -ms-flex-direction: column;
   flex-direction: column;
   background-color: #0d0d0d;
-  background-image: url("../NewAssets/serverless.png");
+  background-image: url("../Assets-May/serverless.png");
   background-position: 0% 100%;
   background-size: 413px;
   background-repeat: no-repeat;
@@ -944,7 +944,7 @@ opacity: 1;
 }*/
 
 .card1._2 {
-  background-image: url("../NewAssets/cloud.png");
+  background-image: url("../Assets-May/cloud.png");
   background-position: 0% 80%;
   background-size: 423px;
 }
@@ -954,7 +954,7 @@ opacity: 1;
 }*/
 
 .card1._2.pagetransition {
-  background-image: url("../NewAssets/cloud.png");
+  background-image: url("../Assets-May/cloud.png");
   background-size: 78%;
   background-position: center 308px;
 }
@@ -965,7 +965,7 @@ opacity: 1;
 }*/
 
 .card1._3 {
-  background-image: url("../NewAssets/partner.png");
+  background-image: url("../Assets-May/partner.png");
   background-size: 200px;
 }
 
@@ -974,7 +974,7 @@ opacity: 1;
 }
 */
 .card1._3.pagetransition {
-  background-image: url("../NewAssets/partner.png");
+  background-image: url("../Assets-May/partner.png");
   background-size: 78%;
   background-position: center 280px;
 }
@@ -992,7 +992,7 @@ opacity: 1;
 }
 
 .card1.pagetransition {
-  background-image: url("../NewAssets/serverless.png");
+  background-image: url("../Assets-May/serverless.png");
   background-size: 78%;
   background-position: center 305px;
 }
@@ -1003,13 +1003,13 @@ opacity: 1;
 }*/
 
 .card1.pagetransition.realestate {
-  background-image: url("../NewAssets/lambda.png");
+  background-image: url("../Assets-May/Lambda.png");
   background-position: 50% 75%;
   background-size: 450px;
 }
 
 .card1._4.pagetransition {
-  background-image: url("../NewAssets/lambda.png");
+  background-image: url("../Assets-May/Lambda.png");
   background-size: 78%;
   background-position: center 372px;
 }
