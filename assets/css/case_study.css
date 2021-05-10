@@ -840,6 +840,7 @@
    .main-text-1 {
      line-height: 24px;
      font-weight: 500;
+     cursor: pointer;
    }
    
    .row3 {
@@ -2883,6 +2884,7 @@
      -webkit-flex: 0 0 auto;
      -ms-flex: 0 0 auto;
      flex: 0 0 auto;
+     cursor: pointer;
    }
    
    .line-main {
@@ -3501,6 +3503,7 @@
        margin-top: 3px;
        font-size: 15px;
        line-height: 18px;
+       cursor: pointer;
      }
    
      .row3 {
@@ -4286,6 +4289,7 @@
      .main-icon-1-div {
        margin-right: 14px;
        width: 100%;
+       cursor: pointer;
      }
    
      .image-scroller {
