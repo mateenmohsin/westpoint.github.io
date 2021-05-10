@@ -19,6 +19,12 @@ function dynamic_div_selection() {
 window.onload = dynamic_div_selection;
 
 function div1_para() {
+    ///
+    var tag = document.createElement("A");
+    tag.setAttribute("href", "#div_explanation");
+    ///
+
+
     document.getElementById("belron").style.backgroundColor = "#f5f5f5";
     document.getElementById("toyota").style.backgroundColor = "#fff";
     document.getElementById("validus").style.backgroundColor = "#fff";
