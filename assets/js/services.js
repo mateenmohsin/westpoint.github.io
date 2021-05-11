@@ -62,7 +62,3 @@ document.getElementById("pb1").innerHTML = "microservices_big_data-body1";
 document.getElementById("ph2").innerHTML = "How we build";
 document.getElementById("pb2").innerHTML = "microservices_big_data-body2";
 }
-function specific_div()
-{
-document.getElementById('cases').scrollIntoView();
-}

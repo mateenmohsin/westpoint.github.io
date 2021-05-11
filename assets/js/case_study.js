@@ -19,6 +19,12 @@ function dynamic_div_selection() {
 window.onload = dynamic_div_selection;
 
 function div1_para() {
+    ///
+    var tag = document.createElement("A");
+    tag.setAttribute("href", "#div_explanation");
+    ///
+
+
     document.getElementById("belron").style.backgroundColor = "#f5f5f5";
     document.getElementById("toyota").style.backgroundColor = "#fff";
     document.getElementById("validus").style.backgroundColor = "#fff";
@@ -57,9 +63,4 @@ function div4_para() {
     document.getElementById("pb2").innerHTML = "Our challenge was to improve the app structure while adding news features without compromising existing architecture and avoiding downtime., Our team used cross functional expertises, such as ReactJS, AWS and NodeJS. The result was an application which was flexible and multifunctional. The project is currently live";
     document.getElementById("pb3").innerHTML = "To build this project, Westpoint selected some of the best technologies available in the market. They are: AWS EC2 with ELB to host a nodeJS API, Amazon SES as our main email sending tool, Route53 to create our SSL certificates, CloudFront to host several Collums apps with SSL certificates and cache, and ReactJS to build Collums’s frontend apps.";
     document.getElementById("pb4").innerHTML = " An award winning nationwide UK clinic tasked Westpoint to build an online booking application for skin treatments that includes functionalities such as appointment management, payment system, reports generation and marketing campaign notifications. This application was designed to be used in multiple clinics across Europe and North America to provide employees and clients a smooth and straightforward workflow."
-}
-function specific_div()
-{
-document.getElementById('cases').scrollIntoView();
-document.getElementById('cases').style.paddingTop = "50px";
 }

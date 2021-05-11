@@ -25,6 +25,18 @@
     type="text/javascript">window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-111563358-1', { 'anonymize_ip': false });</script>
    -->
   <style>
+         #clickable_link{
+   -webkit-transition: all 0ms ease;
+  transition: all 0ms ease;
+  color: #000;
+  text-decoration: none;
+  /* border: none;
+  padding: 0;
+  background: none; */
+   }
+   .four_div{
+    height: 450px;
+   }
     body {
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -48,28 +60,46 @@
       
       flex: 50%;
       padding-left:30vh;
+      padding-top: 28px;
 
     }
-     #clickable_link{
-   -webkit-transition: all 0ms ease;
-  transition: all 0ms ease;
-  color: #000;
-  text-decoration: none;
-  /* border: none;
-  padding: 0;
-  background: none; */
-   }
-   .four_div{
-    height: 450px;
-   }
-   
+     .ic_cloudservice img
+     {
+      width:250px; 
+      height:250px;
+     }
+    
+
     .head-could{
       max-width: inherit;
+    }
+    .last_div
+    {
+      width:350px;
+      height:auto;
     }
     @media screen and (max-width: 991px) {
       .ic_cloudservice
       {
         margin:-194px;
+        margin-left: 1px;
+        padding-top:5px;
+      }
+      .ic_cloudservice img
+     {
+      width:250px; 
+      height:250px;
+     }
+      .last_div
+      {
+        width: 250px;
+        height: auto;
+        margin-top: 150px;
+        margin-left: 10px;
+      }
+      .about_h2 
+      {
+        margin-left: -31px;
       }
     }
 
@@ -80,6 +110,22 @@
         margin:30px;
         width: 120px;
         height:120px;
+      }
+      .ic_cloudservice img
+     {
+      width:250px; 
+      height:250px;
+     }
+      .last_div
+      {
+        width: 250px;
+        height: auto;
+        margin-top: 66px;
+       margin-left: 25px;
+      }
+      .col-img
+      {
+        display: none;
       }
     }
   </style>
@@ -205,11 +251,11 @@
           <div class="head_cloud" style="flex: 50%;">
             <h1 data-w-id="55ad6b66-9a85-e22e-69ef-18b823b1fbb9" class="h1" style="size: 72px">Case Studies
               </h1>
-            <div style="text-align: justify;" style="font-size: 18px ; line-height: 30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etd olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+            <div  style="font-size: 18px ; line-height: 30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etd olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
             
           </div>
           <div class="ic_cloudservice" style="flex: 50%;">
-            <img src="assets/imgs/case studies + aws/Case studies.png" width="250px" height="250px">
+            <img src="assets/new imgs/Case studies.png" >
           </div>
 
         </div>
@@ -342,13 +388,13 @@
               To build this project, Westpoint selected some of the best technologies available in the market. They are: AWS as the cloud environment, in which microservices such as Amazon API Gateway, AWS Lambda Functions and Layers, AWS Glue, Amazon DynamoDB and Amazon S3. Python as the main programming language for the application, used from AWS Lambdas to AWS Glue jobs. And Apache Spark was used inside AWS Glue Jobs to perform data analytics on the incoming data.
             </div>
             <br />
-          <img src="assets/imgs/case studies + aws/javascript-logo.png" width="50px" height="auto">
-          <img src="assets/imgs/case studies + aws/groovy-logo.png" width="50px" height="auto">
-          <img src="assets/imgs/case studies + aws/forgerock-logo.png" width="50px" height="auto">
+          <img src="assets/Assets-May/javascript-logo.png" width="70px" height="auto">
+          <img src="assets/Assets-May/groovy-logo.png" width="70px" height="auto">
+          <img src="assets/Assets-May/forgerock-logo.png" width="70px" height="auto">
           </div>
           
         </div>
-        <div class="col4-img"><img src="assets/imgs/case studies + aws/prod-img.png" width="350px" height="auto"></div>
+        <div class="col4-img"><img src="assets/Assets-May/prod-img.png" class="last_div"></div>
       </div>
     </div>
     <!-- <div class="lines-bg">
