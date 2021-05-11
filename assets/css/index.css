@@ -1270,10 +1270,10 @@ opacity: 1;
     -webkit-align-self: flex-end;
     -ms-flex-item-align: end;
     align-self: flex-end;
-    background-image:  url("../Assets-May/contact_icon.png");
+    /* background-image:  url("../Assets-May/contact_icon.png");
     background-position: right;
     background-size: 320px 320px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .ft-row {
