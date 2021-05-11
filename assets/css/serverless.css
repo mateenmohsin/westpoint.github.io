@@ -892,6 +892,8 @@ opacity: 1;
 }
 
 .subtitle {
+  font-size: 18px;
+  line-height: 30px;
   margin-bottom: 80px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;

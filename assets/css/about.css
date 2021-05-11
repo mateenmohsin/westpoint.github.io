@@ -1062,7 +1062,7 @@
    .card-heading.ln {
      display: inline;
      max-width: 205px;
-     border-bottom: 3px solid transparent;
+     /* border-bottom: 3px solid transparent; */
    }
    
    .card-heading.ln.fw {

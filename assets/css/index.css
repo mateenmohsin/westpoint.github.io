@@ -753,8 +753,8 @@ blockquote {
 }
 
 .par1 {
-  font-size: 20px;
-  line-height: 35px;		
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .row2 {
@@ -871,6 +871,8 @@ opacity: 1;
 }
 
 .subtitle {
+  font-size: 18px;
+  line-height: 30px;
   margin-bottom: 80px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -881,6 +883,8 @@ opacity: 1;
 .subtitle.w430 {
   max-width: 1235px;
   margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .subtitle.w535 {
@@ -3447,8 +3451,8 @@ opacity: 1;
   }
 
   .par1 {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 30px;
   }
 
   .row2 {
@@ -4440,6 +4444,8 @@ opacity: 1;
   }
 
   .subtitle.mb80 {
+    font-size: 18px;
+  line-height: 30px;
     margin-bottom: 80px;
   }
 

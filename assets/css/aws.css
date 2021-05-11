@@ -4477,6 +4477,8 @@ opacity: 1;
   .subtitle.mb80 {
     margin-bottom: 80px;
     margin-left: -41px;
+    line-height: 30px;
+    font-size: 18px;
   }
 
   .card-col1 {
