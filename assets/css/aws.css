@@ -1278,7 +1278,7 @@ opacity: 1;
 
   /*width: 327px;
   height: 331px;*/
-    /*max-width: 55%*/;
+    /*max-width: 55%*/
   /*margin-left: 43px;*/
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
@@ -3052,7 +3052,12 @@ opacity: 1;
   font-size: 25px;
   font-weight: bold;
   margin-left: 3px;
+  line-height: 40px;
 } 
+.h4style {
+  padding-top: 20px;
+  line-height: 40px;
+}
 .h4style
 {
 	/*margin-left: -40px;*/
@@ -4297,6 +4302,8 @@ opacity: 1;
 @media screen and (max-width: 767px) {
 	.h4style {
      margin-left: -40px; 
+     padding-top: 20px;
+     line-height: 40px;
 }
   .section.main-1s {
     overflow: visible;
