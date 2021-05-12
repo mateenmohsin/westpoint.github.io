@@ -755,8 +755,8 @@ blockquote {
 }
 
 .par1 {
-  font-size: 20px;
-  line-height: 35px;		
+  font-size: 18px;
+  line-height: 30px;		
 }
 
 .row2 {
@@ -3441,8 +3441,9 @@ opacity: 1;
   }
 
   .par1 {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+  line-height: 30px;		
+
   }
 
   .row2 {
