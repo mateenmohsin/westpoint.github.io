@@ -449,7 +449,7 @@
         <div data-w-id="6a6ca374-7a63-88d4-ff7b-b073e869560d" class="w720"
           style="display:grid;grid-gap: 10px;opacity:0">
           <div class="head_cloud" style="position: relative;top:30px">
-            <h1 data-w-id="55ad6b66-9a85-e22e-69ef-18b823b1fbb9" class="h1" style="size: 72px">Re-Architect For Cloud
+            <h1 id= "banner_heading"  class="h1" style="size: 72px"> Re-Architect For Cloud 
               <span style="color: #f7971d">.<br /><img src="assets/imgs/home/svgs/Aws_logo.svg"
                   style="width: 140px;height: 60px;opacity: 1;"></span> </h1>
 
@@ -1011,6 +1011,15 @@
 
       });
     });
+
+    setInterval(function(){
+      let randomNumber = Math.floor(Math.random() * 3) + 1;
+      let bannerHeading = ["Re-Architect For Cloud", "Optimise For Cloud", "Scale With Cloud", "Migrate To Cloud"];
+      $('#banner_heading').html(`<h1 id= "banner_heading"  class="h1" style="size: 72px"> ${bannerHeading[randomNumber]}
+              <span style="color: #f7971d">.<br /><img src="assets/imgs/home/svgs/Aws_logo.svg"
+                  style="width: 140px;height: 60px;opacity: 1;"></span> </h1>`);
+    }, 5000);
+  
   </script>
   <style>
     blockquote {
@@ -1048,5 +1057,4 @@
     }
   </style>
 </body>
-
 </html>
