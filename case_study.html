@@ -68,7 +68,7 @@
       background-repeat: no-repeat;*/
       
       flex: 50%;
-      padding-left:50vh;
+      padding-left:45vh;
       padding-top: 28px;
 
     }
@@ -463,11 +463,11 @@
         <div class="col1"> 
          <div class="slide-in">
             <div class="row2">
-              <div class="col2 cwidth" style="background-color: #f5f5f5;box-shadow: 3px 3px 20px #f5f5f5;text-align: left;">
+              <div class="col2 cwidth col02" style="background-color: #f5f5f5;box-shadow: 3px 3px 20px #f5f5f5;text-align: left;padding-left: 0px; padding-right: 0px;">
                 <div class="main-icon-1-div head4" style="text-align: left;">The project scope</div>
                 <div class="main-text-1" id="pb1" style="font-size: 18px ; line-height: 30px">Existing legacy systems are limited to how they can scale and what they can do for their end client. In the case of Belron a forward thinking plan was needed to implement AWS serverless into various aspects of their giant organisation. Westpoint put together a robust architecture plan which would allow for ease of scaling and cost savings using many various AWS micro services. Our Goal with Belron was a united one, we wanted to create a cost saving solution which could scale on demand and scale infinitely.   </div>
               </div>
-              <div class="col2" style="background-color: #f5f5f5;box-shadow: 3px 3px 20px #f5f5f5;text-align: left;">
+              <div class="col2 col02" style="background-color: #f5f5f5;box-shadow: 3px 3px 20px #f5f5f5;text-align: left; padding-left: 0px; padding-right: 0px;">
                 <div class="main-icon-1-div head4" style="text-align: left;">How we designed the solution</h3></div>
                 <div class="main-text-1" id="pb2" style="font-size: 18px ; line-height: 30px">Based on AWS serverless services like API Gateway, Lambda, DynamoDB and Glue. Using API Gateway and Lambda we provided some endpoints that Belron could use to configure the system, and since Belron have business units across the world, these settings are applied only for the country the user is registered. Using only one endpoint, we could provide them the logic needed to automate a part of the work from business units, this endpoint registers data about the call in a DynamoDB table. The other side of the application is the analytics, where we use AWS Glue to automate the process of exporting data from a DynamoDB table to a Glue Database without the time overheads to manage migration or backup scripts. After that an Apache Spark job is triggered to generate analytics from the data in the Glue Database, in the end saving this data to a S3 Bucket and later querying all of this analytics using AWS Athena.</div>
               </div>
