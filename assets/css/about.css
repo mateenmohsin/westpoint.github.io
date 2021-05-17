@@ -14,8 +14,8 @@
       ========================================================================== */
    
    .h2style {
-     font-size: 30px;
-     font-weight: bold;
+     font-size: 32px;
+     font-weight: bolder;
    }   
    
    .head4
@@ -940,7 +940,7 @@
      display: -webkit-flex;
      display: -ms-flexbox;
      display: flex;
-     height: 320px;
+     height: 290px;  /*  320px;  */
      width:385px;
      padding: 32px 32px 72px;
      -webkit-box-orient: vertical;
@@ -1053,7 +1053,7 @@
    .card-heading {
      max-width: 205px;
      font-family: Montserrat,Euclidcirculara, sans-serif;
-     font-size: 35px;
+     font-size: 30px; /*35*/
      line-height: 42px;
      font-weight: 500;
    }
