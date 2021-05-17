@@ -3102,7 +3102,7 @@
    
      .section.main-3s {
        padding-top: 15px;
-       padding-bottom: 100px;
+       padding-bottom: 85px; /*100*/
      }
    
      .section.main-3s.prod {
@@ -3595,6 +3595,9 @@
      }
    
      .card1._2.pagetransition {
+       /* margin-left: 20px; */
+       height: 270px;
+     
        /*background-size: 80%;*/
      }
    
@@ -3611,6 +3614,8 @@
      }
    
      .card1._3.pagetransition {
+      /* margin-left: 20px; */
+       height: 270px;
       /* background-size: 80%;*/
      }
    
@@ -3623,6 +3628,8 @@
      }
    
      .card1.pagetransition {
+       /* margin-left: 20px; */
+       height: 270px;
      /*  background-size: 80%;*/
      }
    
