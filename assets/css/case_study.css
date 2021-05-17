@@ -13,10 +13,13 @@
    Start of custom Webflow CSS
    ========================================================================== */
 
+   .extra-margin{
+    margin-right: 190px
+   }
 .h2style {
   font-size: 32px;
   font-weight: 600;
-  line-height: 40px;
+  line-height: 30px;
 }   
 
 .par1 {
@@ -2917,7 +2920,7 @@ opacity: 1;
 .main-icon-1-div {
   /*width: 50px;*/
   /*text-align: center;*/
-  margin-right: 24px;
+  /* margin-right: 24px; */
   /* margin-right: 195px; */
   margin-bottom: 26px;
   -webkit-box-flex: 0;

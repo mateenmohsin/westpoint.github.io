@@ -2910,8 +2910,8 @@
    
    .main-icon-1-div {
      /*width: 50px;*/
-     text-align: center;
-     margin-right: 24px;
+     /* text-align: center; */
+     /* margin-right: 24px; */
      margin-bottom: 26px;
      -webkit-box-flex: 0;
      -webkit-flex: 0 0 auto;
