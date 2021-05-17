@@ -64,3 +64,30 @@ function div4_para() {
     document.getElementById("pb3").innerHTML = "To build this project, Westpoint selected some of the best technologies available in the market. They are: AWS EC2 with ELB to host a nodeJS API, Amazon SES as our main email sending tool, Route53 to create our SSL certificates, CloudFront to host several Collums apps with SSL certificates and cache, and ReactJS to build Collums’s frontend apps.";
     document.getElementById("pb4").innerHTML = " An award winning nationwide UK clinic tasked Westpoint to build an online booking application for skin treatments that includes functionalities such as appointment management, payment system, reports generation and marketing campaign notifications. This application was designed to be used in multiple clinics across Europe and North America to provide employees and clients a smooth and straightforward workflow."
 }
+
+
+var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+var rootElement = document.documentElement;
+
+function scrollToTop() {
+    console.log("??");
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+  }
+  
+  scrollToTopBtn.addEventListener("click", scrollToTop)
+
+  function handleScroll() {
+     // Do something on scroll
+  var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
+  if ((rootElement.scrollTop / scrollTotal ) > 0.80 ) {
+    // Show button
+    scrollToTopBtn.classList.add("showBtn")
+  } else {
+    // Hide button
+    scrollToTopBtn.classList.remove("showBtn")
+  }
+  }
+  document.addEventListener("scroll", handleScroll)
