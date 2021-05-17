@@ -15,7 +15,7 @@
    
    .h2style {
      font-size: 32px;
-     font-weight: bolder;
+     font-weight: 600;
    }   
    
    .head4
@@ -145,7 +145,7 @@
      color: #fff;
      font-size: 50px;
      line-height: 50px;
-     font-weight: 500;
+     font-weight: bold;
      letter-spacing: -0.01em;
    }
    
@@ -1053,9 +1053,9 @@
    .card-heading {
      max-width: 205px;
      font-family: Montserrat,Euclidcirculara, sans-serif;
-     font-size: 30px; /*35*/
+     font-size: 26px; /*30*/
      line-height: 42px;
-     font-weight: 500;
+     font-weight: 400;
    }
    
    .card-heading.w280 {
@@ -3055,12 +3055,14 @@
      }
    .h2style {
      font-size: 25px;
-     font-weight: bold;
+     font-weight: 600;
    } 
      h1 {
        margin-bottom: 24px;
        font-size: 35px;
-       line-height: 42px;
+       line-height: 45px;
+       font-weight: bold;
+       margin-top: 15px;
      }
    
      h2 {

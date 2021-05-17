@@ -15,7 +15,7 @@
    
    .h2style {
      font-size: 30px;
-     font-weight: bold;
+     font-weight: 600;
    }   
    
    .head4
@@ -23,9 +23,9 @@
    margin-left: 95px;
    margin-top: 20px;
    margin-bottom: 40px;
-   font-size: 24px;
+   font-size: 26px;
    line-height:30px;
-   font-weight: bold;
+   font-weight: 400;
    color: #000;
    text-align:left;
    width: 500px;
@@ -145,7 +145,7 @@
      color: #fff;
      font-size: 50px;
      line-height: 50px;
-     font-weight: 500;
+     font-weight: bold;
      letter-spacing: -0.01em;
    }
    
@@ -163,9 +163,9 @@
    h3 {
      margin-top: 20px;
      margin-bottom: 10px;
-     font-size: 24px;
+     font-size: 26px;
      line-height: 30px;
-     font-weight: bold;
+     font-weight: 400;
    }
    
    h4 {
@@ -3089,11 +3089,13 @@
      }
    .h2style {
      font-size: 25px;
-     font-weight: bold;
+     font-weight: 600;
    } 
      h1 {
        margin-bottom: 24px;
        font-size: 35px;
+       margin-top: 15px;
+       font-weight: bold;
        line-height: 42px;
      }
    
